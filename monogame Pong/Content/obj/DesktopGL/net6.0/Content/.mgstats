@@ -1,0 +1,4 @@
+Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
+"C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/ball.png","C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/bin/DesktopGL/Content/ball.xnb","TextureProcessor","Texture2DContent",188,7301,0.1276877
+"C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/default font.spritefont","C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/bin/DesktopGL/Content/default font.xnb","FontDescriptionProcessor","SpriteFontContent",2068,21535,0.2211832
+"C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/paddle.png","C:/Users/13sti/source/repos/monogame Pong/monogame Pong/Content/bin/DesktopGL/Content/paddle.xnb","TextureProcessor","Texture2DContent",163,3825,0.0019325

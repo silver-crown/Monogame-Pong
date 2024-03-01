@@ -23,10 +23,12 @@ namespace monogame_Pong
         private InputManager _InputManager;
         private BallPhysics _BallPhysics;
         private RenderManager _RenderManager;
+        private SoundManager _soundManager;
         private Paddle[] _paddles;
         private Ball _ball;
         private float paddleSpeed = 5f;
         public Ball GetBall() => _ball;
+        public SoundManager GetSoundManager() => _soundManager;
 
         //Position 0 refering to the left paddle and position 1 refering to the right paddle
         public Paddle[] GetPaddles() => _paddles;
@@ -59,6 +61,8 @@ namespace monogame_Pong
             _BallPhysics = new BallPhysics(this, _ball);
             _BallPhysics.Initialize();
             _RenderManager = new RenderManager(this, Content);
+            _soundManager = new SoundManager();
+            _soundManager.LoadContent(Content);
         }
 
         protected override void Update(GameTime gameTime) {

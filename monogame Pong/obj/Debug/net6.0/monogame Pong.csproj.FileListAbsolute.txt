@@ -26,3 +26,7 @@ C:\Users\13sti\source\repos\monogame Pong\monogame Pong\obj\Debug\net6.0\ref\mon
 C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\ball.xnb
 C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\paddle.xnb
 C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\default font.xnb
+C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\rehehehe.ogg
+C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\rehehehe.xnb
+C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\zoinks.ogg
+C:\Users\13sti\source\repos\monogame Pong\monogame Pong\bin\Debug\net6.0\Content\zoinks.xnb

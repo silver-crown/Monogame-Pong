@@ -62,7 +62,7 @@ namespace monogame_Pong
             var keyboardState = Keyboard.GetState();
             if (keyboardState.IsKeyDown(Keys.Enter) && _game.GetGameOverStatus()) {
                 _game.SetGameOverStatus(false);
-
+                _game.GetSoundManager().playSoundEffect(_game.GetSoundManager().rehehehe);
                 _game.ResetPlayerScore();
             }
         }

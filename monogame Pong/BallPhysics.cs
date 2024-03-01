@@ -36,7 +36,7 @@ namespace monogame_Pong
             CalculateBallPhysics();
         }
         private void CalculateBallPhysics() {
-
+            SoundManager soundManager = _game.GetSoundManager();
             if (!_game.GetGameOverStatus()) {
                 // Ball movement
                 _ball.SetPosition(_ball.GetPosition() + ballDirection * _ball.GetSpeed());
@@ -52,6 +52,7 @@ namespace monogame_Pong
                     _ball.SetSpeed(_ball.GetSpeed() + 0.1f);
                     IncreasePaddleSpeeds();
                     _game.IncreasePlayerScore();
+                    soundManager.playSoundEffect(soundManager.zoinks);
                 }
                 //right paddle
                 if (_ball.GetPosition().X + _ball.GetTexture().Width / 2 >= RightPaddle.GetPosition().X - RightPaddle.GetTexture().Width && _ball.GetPosition().Y >= RightPaddle.GetPosition().Y && _ball.GetPosition().Y <= RightPaddle.GetPosition().Y + RightPaddle.GetTexture().Height) {
@@ -59,6 +60,7 @@ namespace monogame_Pong
                     _ball.SetSpeed(_ball.GetSpeed() + 0.1f);
                     IncreasePaddleSpeeds();
                     _game.IncreasePlayerScore();
+                    soundManager.playSoundEffect(soundManager.zoinks);
                 }
 
                 if (_ball.GetPosition().X <= 0 - _ball.GetTexture().Width || _ball.GetPosition().X >= PongGame.windowWidth) {
@@ -66,6 +68,7 @@ namespace monogame_Pong
                 }
             }
             else {
+
                 _ball.SetPosition(ballStartPosition);
                 _ball.SetSpeed(startBallSpeed);
                 ResetPaddleSpeeds();

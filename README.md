@@ -1,7 +1,7 @@
  # MonoGame Tetris
 
 This is a very basic pong game where both paddles are controlled with the W/S and Up/Down keys on the keyboard. Made in C# using the monogame framework as a base.
-This project was done as a personal, rapid prototyping personal challenge and completed in less than a day.
+This project was done as a personal, rapid prototyping challenge and completed in less than a day.
 
 ## gameplay notes
 The speed of the ball and paddles increases with each collision, this in turn increases the players score. 

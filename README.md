@@ -31,8 +31,5 @@ testers may run without compiling.
 ## Contributing
 
 Feel free to contribute to the project by submitting pull requests.
-License
-
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 # Acknowledgments
     This project is built using the MonoGame framework. 
